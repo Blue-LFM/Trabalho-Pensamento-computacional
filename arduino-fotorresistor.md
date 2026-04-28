@@ -20,21 +20,21 @@ A3:
 
 2) Apresente todos os componentes do sistema e para que eles servem:
 
-  Fotorresistor(LDR): reage a luz, lendo se está claro, média iluminação ou escuro.
+    Fotorresistor(LDR): reage a luz, lendo se está claro, média iluminação ou escuro.
   
-  Botões: mudam os estados ao serem pressionados.
+    Botões: mudam os estados ao serem pressionados.
   
-  LED RGB: muda de cor, indicando a leitura do fotorresistor.
+    LED RGB: muda de cor, indicando a leitura do fotorresistor.
   
-  Resistor: limita o fluxo de corrente elétrica, evitando problemas no arduíno.
+    Resistor: limita o fluxo de corrente elétrica, evitando problemas no arduíno.
 
 
 3) Apresente as regras de funcionamento a serem implementadas:
-  O modo padrão do sistema é o modo automático, que irá ler a iluminação do ambiente.
-  Ao pressionar o botão 1, mudará para o modo automático; se já estiver nesse modo, irá permanecer.
-  Ao pressionar o botão 2, mudará para o modo manual, exibindo luz vermelha e ignorando a leitura do LDR.
-  Ao pressionar o botão 3, desligará o LED RGB, até que o usuário pressione outro botão.
-  Se dois botões forem pressionados ao mesmo tempo, o LED RGB irá apagar, e permanecerá desse modo até que o usuário pressione outro botão.
+    O modo padrão do sistema é o modo automático, que irá ler a iluminação do ambiente.
+    Ao pressionar o botão 1, mudará para o modo automático; se já estiver nesse modo, irá permanecer.
+    Ao pressionar o botão 2, mudará para o modo manual, exibindo luz vermelha e ignorando a leitura do LDR.
+    Ao pressionar o botão 3, desligará o LED RGB, até que o usuário pressione outro botão.
+    Se dois botões forem pressionados ao mesmo tempo, o LED RGB irá apagar, e permanecerá desse modo até que o usuário pressione outro botão.
 
 
 
