@@ -30,6 +30,7 @@ A3:
 
 
 3) Apresente as regras de funcionamento a serem implementadas:
+
     O modo padrão do sistema é o modo automático, que irá ler a iluminação do ambiente.
    
     Ao pressionar o botão 1, mudará para o modo automático; se já estiver nesse modo, irá permanecer.
@@ -42,7 +43,8 @@ A3:
 
 
 
-5) Explique como você utilizaria estruturas if para controlar o sistema:
+4) Explique como você utilizaria estruturas if para controlar o sistema:
+
    Se botao1 for pressionado: ativa modo autómatico de leitura; o LED RGB acende da cor correspondente à leitura do LDR.
    
    Se botao2 for pressionado: ativa modo manual, mantendo o LED na cor vermelha e ignorando a leitura do LDR.
