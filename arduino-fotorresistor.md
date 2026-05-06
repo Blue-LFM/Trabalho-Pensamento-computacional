@@ -66,3 +66,80 @@ Código em blocos:
 <p align="center">
   <img src="codigo-fotoresistor-parte2.png" width="75%">
 </p>
+
+Código em texto:
+
+´´´bash
+// C++ code
+//
+int valor_iluminacao = 0;
+
+int botao1 = 0;
+
+int botao2 = 0;
+
+int botao3 = 0;
+
+int estado = 0;
+
+int flag = 0;
+
+void setup()
+{
+  pinMode(A0, INPUT);
+  Serial.begin(9600);
+  pinMode(13, INPUT);
+  pinMode(12, INPUT);
+  pinMode(8, INPUT);
+  pinMode(3, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
+
+  estado = 0;
+}
+
+void loop()
+{
+  Serial.println(analogRead(A0));
+  valor_iluminacao = analogRead(A0);
+  botao1 = digitalRead(13);
+  botao2 = digitalRead(12);
+  botao3 = digitalRead(8);
+  if (botao1 == HIGH) {
+    estado = 1;
+  }
+  if (botao2 == HIGH) {
+    estado = 2;
+  }
+  if (botao3 == HIGH) {
+    estado = 3;
+  }
+  if (estado == 1) {
+    if (valor_iluminacao <= 343) {
+      digitalWrite(3, HIGH);
+      digitalWrite(5, LOW);
+      digitalWrite(6, LOW);
+    }
+    if (valor_iluminacao >= 344) {
+      digitalWrite(3, LOW);
+      digitalWrite(5, HIGH);
+      digitalWrite(6, LOW);
+    }
+    if (valor_iluminacao >= 640) {
+      digitalWrite(3, LOW);
+      digitalWrite(5, LOW);
+      digitalWrite(6, HIGH);
+    }
+  }
+  if (estado == 2) {
+    digitalWrite(3, HIGH);
+    digitalWrite(5, LOW);
+    digitalWrite(6, LOW);
+  }
+  if (estado == 3) {
+    digitalWrite(3, LOW);
+    digitalWrite(5, LOW);
+    digitalWrite(6, LOW);
+  }
+  delay(10); // Delay a little bit to improve simulation performance
+}
