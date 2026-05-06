@@ -59,6 +59,9 @@ Montagem do Circuito:
   <img src="arduino-fotoresistor.png" width="75%">
 </p>
 
+Link do circuito no Tinkercad:
+https://www.tinkercad.com/things/eRIlBwppFwY-bodacious-maimu?sharecode=IDMSs-jT8PTthkzG4sd3yMKRUkTxe60dOoC6uO6dJYw
+
 Código em blocos:
 <p align="center">
   <img src="codigo-fotoresistor-parte1.png" width="50%">
