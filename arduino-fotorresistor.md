@@ -61,10 +61,10 @@ A3:
 
 Código em blocos:
 <p align="center">
-  <img src="codigo-fotoresistor-parte1.png" width="75%">
+  <img src="codigo-fotoresistor-parte1.png" width="50%">
 </p>
 <p align="center">
-  <img src="codigo-fotoresistor-parte2.png" width="75%">
+  <img src="codigo-fotoresistor-parte2.png" width="50%">
 </p>
 
 Código em texto:
