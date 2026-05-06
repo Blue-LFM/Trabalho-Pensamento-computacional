@@ -59,3 +59,10 @@ A3:
   <img src="arduino-fotoresistor.png" width="75%">
 </p>
 
+Código em blocos:
+<p align="center">
+  <img src="codigo-fotoresistor-parte1.png" width="75%">
+</p>
+<p align="center">
+  <img src="codigo-fotoresistor-parte2.png" width="75%">
+</p>
