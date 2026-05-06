@@ -13,9 +13,12 @@ A3:
 - Saídas:
 
   LED RGB : exibe a cor de acordo com a iluminação ou exibe vermelho (se o botão 2 for pressionado)
-    Verde : claro
-    Amarelo : médio
-    Vermelho : escuro ou modo alerta
+  
+    Verde : claro;
+  
+    Azul : médio;
+  
+    Vermelho : escuro ou modo alerta;
 
 
 2) Apresente todos os componentes do sistema e para que eles servem:
