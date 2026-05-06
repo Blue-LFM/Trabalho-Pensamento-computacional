@@ -69,7 +69,7 @@ Código em blocos:
 
 Código em texto:
 
-´´´bash
+```bash
 // C++ code
 //
 int valor_iluminacao = 0;
