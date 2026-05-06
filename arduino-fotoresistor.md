@@ -53,7 +53,7 @@ A3:
 
    Uma variável de controle foi criada para que dois estados de botões apertados não possam existir ao mesmo tempo, ou seja, apenas o último a ser pressionado irá exibir o resultado.
 
-   Montagem do Circuito:
+Montagem do Circuito:
 
 <p align="center">
   <img src="arduino-fotoresistor.png" width="75%">
