@@ -38,12 +38,12 @@ A3:
     Ao pressionar o botão 2, mudará para o modo manual, exibindo luz vermelha e ignorando a leitura do LDR.
 
     Ao pressionar o botão 3, desligará o LED RGB, até que o usuário pressione outro botão.
+   
+    Como foi criada uma variável de controle, ao pressionar dois botões, apenas irá acender o último a ser pressionado. 
 
-    Se dois botões forem pressionados ao mesmo tempo, o LED RGB irá apagar, e permanecerá desse modo até que o usuário pressione outro botão.
 
 
-
-4) Explique como você utilizaria estruturas if para controlar o sistema:
+5) Explique como você utilizaria estruturas if para controlar o sistema:
 
    Se botao1 for pressionado: ativa modo autómatico de leitura; o LED RGB acende da cor correspondente à leitura do LDR.
    
@@ -51,5 +51,9 @@ A3:
 
    Se botao3 for pressionado: desliga o sistema, apagando o LED aceso.
 
-   Se dois botões forem pressionados ao mesmo tempo: desliga o sistema, apagando o LED aceso.
+   Uma variável de controle foi criada para que dois estados de botões apertados não possam existir ao mesmo tempo, ou seja, apenas o último a ser pressionado irá exibir o resultado.
+
+<p align="center">
+  <img src="arduino-fotoresistor.png" width="50%">
+</p>
 
