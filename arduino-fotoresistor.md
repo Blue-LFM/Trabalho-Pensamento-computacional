@@ -149,3 +149,11 @@ void loop()
   }
   delay(10); // Delay a little bit to improve simulation performance
 }
+```
+Fotos do circuito físico:
+<p align="center">
+  <img src="foto-arduino1.jpeg" width="50%">
+</p>
+<p align="center">
+  <img src="foto-arduino2.jpeg" width="50%">
+</p>
